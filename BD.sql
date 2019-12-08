@@ -1,5 +1,7 @@
 -- --------------------------------------------------------
-
+-- --------------------------------------------------------
+CREATE DATABASE alumno;
+USE alumno;
 --
 -- Estructura de tabla para la tabla `actividades`
 --
@@ -118,7 +120,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `matricula`, `ap_paterno`, `ap_materno`, `nombre`, `password`, `correo_electronico`, `fotografia`, `rol`) VALUES
-(1, '666', 'GarcÃ©s', 'GonzÃ¡lez', 'Francisco', '123', 'paco@mail.com', 'ybky', 'estudiante'),
+(1, '666', 'Gates', 'Gonzalez', 'Francisco', '123', 'paco@mail.com', 'ybky', 'estudiante'),
 (6, '333', 'Red', 'Rogers', 'Jhon', '123', 'red@mail.com', 'fhhkl', 'estudiante'),
 (8, '4141', 'Gates', 'Microsoft', 'Bill', '123', 'bill@mail.com', 'fotos', 'estudiante');
 
